@@ -6,3 +6,4 @@ while True:
     if number.isdigit() and int(number) % 5 != 0:
         summ += int(number)
 print(summ)
+#TEST
