@@ -1,7 +1,8 @@
 #Этот вариант решения я нашел и переделал, сам сделать не успевал.
 fib1 = fib2 = 1
+k = [1, 1]
 n = 15
-while n < 2:
+while n < 13:
     print(fib1, end=' ')
     print(fib2, end=' ')
 for i in range(2, n):
